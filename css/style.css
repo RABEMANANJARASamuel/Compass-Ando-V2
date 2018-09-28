@@ -1,0 +1,9 @@
+body { margin: 0; padding: 0; color: #000; font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
+
+.wrapAll { min-height: 40px; height: auto; height: auto; margin: 0 auto; width: 70%; }
+.wrapAll header { display: flex; justify-content: space-between; height: 100px; line-height: 100px; }
+.wrapAll .menu ul { margin: 0; padding: 0; display: flex; }
+.wrapAll .menu ul li { list-style-type: none; margin-left: 15px; }
+.wrapAll .menu a { color: blueviolet; text-decoration: none; }
+
+@media screen and (max-width: 1024px) { .wrapAll header { display: none; } }
